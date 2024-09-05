@@ -15,26 +15,26 @@ const Main = () => {
         </div>
         <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
           <div>
-            <img  height='60px' width='60px' src='src/assets/icons/icons8-linux-96.png'/>
+            <img  height='60px' width='60px' src='https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/icons/icons8-linux-96.png?token=GHSAT0AAAAAACT3CJFPRAYJQTMFXK7JJRLMZW2ISEA'/>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">We love Linux!</h3>
             <p className="font-light text-gray-500 dark:text-gray-400">Free-Softwares, Analysis, Distro test and security for this</p>
           </div>
           <div>
-            <img height='60px' width='60px' src='src/assets/icons/icons8-bitcoin-128.png'/>
+            <img height='60px' width='60px' src='https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/icons/icons8-bitcoin-128.png?token=GHSAT0AAAAAACT3CJFPYZKVOTRLLT6Z2N3KZW2ISWQ'/>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">Bitcoin Supremacy</h3>
             <p className="font-light text-gray-500 dark:text-gray-400">We support Bitcoin and any other form
               to decentralization the power
             </p>
           </div>
           <div>
-            <img height='60px' width='60px' src='src/assets/icons/icons8-help-100.png'/>
+            <img height='60px' width='60px' src='https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/icons/icons8-help-100.png?token=GHSAT0AAAAAACT3CJFP7QCAMNPLEMGPUD3KZW2ITNA'/>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">We Support our community</h3>
             <p className="font-light text-gray-500 dark:text-gray-400">
               Support new projects, community and censored people in any place
             </p>
           </div>
           <div>
-            <img height='60px' width='60px' src='src/assets/icons/icons8-donation-64.png'/>
+            <img height='60px' width='60px' src='https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/icons/icons8-donation-64.png?token=GHSAT0AAAAAACT3CJFOTVHEBKUJIQPEQNBMZW2IS7Q'/>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">Finance Our Information War and
               Decentralization</h3>
             <p className="font-light text-gray-500 dark:text-gray-400">Bitcoin Wallet: 121212</p>

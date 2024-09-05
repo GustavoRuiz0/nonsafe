@@ -20,7 +20,7 @@ const Writers = () => {
                       <img
                         alt="team"
                         className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                        src="src/assets/team/master.jpeg"
+                        src="https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/team/master.jpeg?token=GHSAT0AAAAAACT3CJFP7IM4KMLXSD3MMUPEZW2IULA"
                       ></img>
                       <div className="w-full">
                         <h2 className="title-font font-medium text-lg text-green-500">
@@ -40,7 +40,7 @@ const Writers = () => {
                       <img
                         alt="team"
                         className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                        src="src/assets/team/neginho.jpeg"
+                        src="https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/team/neginho.jpeg?token=GHSAT0AAAAAACT3CJFOF2RCULRDJXX5PBWOZW2IUYA"
                       ></img>
                       <div className="w-full">
                         <h2 className="title-font font-medium text-lg text-green-500">
@@ -60,7 +60,7 @@ const Writers = () => {
                       <img
                         alt="team"
                         className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                        src="src/assets/team/mohamed.jpeg"
+                        src="https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/team/mohamed.jpeg?token=GHSAT0AAAAAACT3CJFPZFYFAQA3RMKPADEUZW2IVCQ"
                       ></img>
                       <div className="w-full">
                         <h2 className="title-font font-medium text-lg text-green-500">
@@ -80,7 +80,7 @@ const Writers = () => {
                       <img
                         alt="team"
                         className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                        src="src/assets/team/ericko.jpeg"
+                        src="https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/team/ericko.jpeg?token=GHSAT0AAAAAACT3CJFOMWSI3FPIKG5AGQ5WZW2ITXQ"
                       ></img>
                       <div className="w-full">
                         <h2 className="title-font font-medium text-lg text-green-500">
