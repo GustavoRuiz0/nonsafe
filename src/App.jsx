@@ -1,19 +1,26 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Hero from './components/Hero.jsx';
-import Writers from './components/Writers';
+import MainLayout from './layouts/MainLayout';
+import HomePage from './pages/HomePage';
+import NotFoundPage from "./pages/NotFoundPage.jsx";
+
+import {
+    Route,
+    createBrowserRouter,
+    createRoutesFromElements,
+    RouterProvider,
+} from 'react-router-dom';
 
 
-function App() {
-  return (
-    <div className={"bg-black"}>
-      <Navbar />
-      <Hero/>
-      <Main/>
-      <Writers/>
-    </div>
-  );
-}
+const App = () => {
+    const router = createBrowserRouter(
+        createRoutesFromElements(
+            <Route path='/' element={<MainLayout />}>
+                <Route index element={<HomePage />} />
+                <Route path='*' element={<NotFoundPage />} />
+            </Route>
+        )
+    );
 
+    return <RouterProvider router={router} />;
+};
 export default App;

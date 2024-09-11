@@ -5,15 +5,14 @@ const Writers = () => {
       <>
         <section className="text-gray-600 body-font">
           <div className="container px-5 mx-auto">
-            <div className="text-center mb-20">
+            <div className="text-center mb-5">
               <h2 className="sm:text-5xl">
-                <div className="font-medium title-font mb-4
-                bg-gradient-to-r text-[#7950f2]  text-transparent bg-clip-text animate-gradient">
-                  Our Prefered Writers
+                <div className="font-medium title-font mb-4 text-green-500">
+                  Our Starter Writers
                 </div>
               </h2>
 
-              <div className="container px-5 py-16 mx-auto">
+              <div className=" px-5 py-16 mx-auto">
                 <div className="flex flex-wrap -m-4">
                   <div className="p-4 lg:w-1/4 md:w-1/2">
                     <div className="h-full flex flex-col items-center text-center">
