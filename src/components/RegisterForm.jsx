@@ -77,7 +77,6 @@ const RegisterForm = () => {
           </div>
           <div className="p-6 pt-0">
             <form onSubmit={submitForm}>
-              {/* Inputs */}
               <div className="group relative rounded-lg border focus-within:border-sky-200 px-3 pb-1.5 pt-2.5">
                 <input
                   type="text"
