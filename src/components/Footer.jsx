@@ -18,7 +18,10 @@ const Footer = () => {
         </div>
         <div>
           <Link to=''>
-            <h6 className='font-medium text-gray-400'>Our Alies</h6>
+            <h6 className='font-medium text-gray-400'>Contact</h6>
+            <ul>
+              <li>nonsafesystem@protonmail.com</li>
+            </ul>
           </Link>
         </div>
         <div>

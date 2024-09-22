@@ -19,24 +19,24 @@ const Hero = () => {
             <div className="flex flex-wrap -m-4 text-center">
               <div className="p-4 sm:w-1/3 w-1/2">
                 <h2 className="title-font font-medium sm:text-5xl text-3xl text-green-500">
-                  <CountUp end={940} redraw={true}>
+                  <CountUp end={4} redraw={true}>
                   </CountUp>
                 </h2>
-                <p className="leading-relaxed">Users</p>
+                <p className="leading-relaxed">Writers</p>
               </div>
               <div className="p-4 sm:w-1/3 w-1/2">
                 <h2 className="title-font font-medium sm:text-5xl text-3xl text-green-500">
-                  <CountUp end={740} redraw={true}>
+                  <CountUp end={4} redraw={true}>
                   </CountUp>
                 </h2>
-                <p className="leading-relaxed">Subscribes</p>
+                <p className="leading-relaxed">Members</p>
               </div>
               <div className="p-4 sm:w-1/3 w-1/2">
                 <h2 className="title-font font-medium sm:text-4xl text-3xl text-green-500">
-                  <CountUp end={315} redraw={true}>
+                  <CountUp end={6} redraw={true}>
                   </CountUp>
                 </h2>
-                <p className="leading-relaxed">Downloads</p>
+                <p className="leading-relaxed">Donations</p>
               </div>
             </div>
           </div>

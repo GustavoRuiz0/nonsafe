@@ -27,14 +27,16 @@ const Main = () => {
             </p>
           </div>
           <div>
-            <img height='60px' width='60px' src='https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/icons/icons8-help-100.png?raw=true'/>
+            <img height='60px' width='60px'
+                 src='https://raw.githubusercontent.com/GustavoRuiz0/nonsafe_normal_images/main/icons/icons8-help-100.png?raw=true'/>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">We Support our community</h3>
             <p className="font-light text-gray-500 dark:text-gray-400">
               Support new projects, community and censored people in any place, remember, we can fix that!
             </p>
           </div>
           <div>
-            <img height='60px' width='60px' src='https://github.com/GustavoRuiz0/nonsafe_normal_images/blob/main/icons/retro-cassette-pink-purple-icon-5694190.svg?raw=true'/>
+            <img height='60px' width='60px'
+                 src='https://github.com/GustavoRuiz0/nonsafe_normal_images/blob/main/icons/retro-cassette-pink-purple-icon-5694190.svg?raw=true'/>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">Finance Our Information War and
               Decentralization</h3>
             <p className="font-light text-gray-500 dark:text-gray-400">Bitcoin Wallet: bc1q8x935002d6zrhhx6nksdh9pvlevdst5nwrnapw</p>
