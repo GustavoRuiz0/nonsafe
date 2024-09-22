@@ -10,7 +10,7 @@ const RegisterForm = () => {
   const [message, setMessage] = useState(false);
 
   const sendRegister = async (newUser) => {
-    const res = await fetch(`/api/users`, {
+    const res = await fetch(`api/users`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
