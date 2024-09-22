@@ -7,7 +7,7 @@ const RegisterForm = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [note, setNote] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [message, setMessage] = useState(false);
+  const [message, setMessage] = useState(''); // Inicializa com uma string vazia
 
   const sendRegister = async (newUser) => {
     const res = await fetch(`https://nonsafeapi-production.up.railway.app/users`, {
@@ -44,11 +44,12 @@ const RegisterForm = () => {
 
     try {
       const data = await sendRegister(registerData);
-      setMessage(data.message)
+      setMessage(data.message || 'Registro efetuado, entraremos em contato pelo nonsafesystem@protonmail.com');
       setIsSubmitted(true);
     } catch (error) {
+      setMessage('Ocorreu um erro durante o registro. Tente novamente.');
+      setIsSubmitted(true);
     }
-
   };
 
   if (isSubmitted) {
@@ -61,14 +62,13 @@ const RegisterForm = () => {
       </div>
     );
   }
+
   return (
     <div id="registration-form" className="bg-black text-white flex min-h-[75vh] flex-col items-center pt-16 sm:justify-center sm:pt-0">
       <span className="title-font font-medium text-white text-5xl mb-2">NonsafeSystem</span>
       <div className="relative mt-12 w-full max-w-lg sm:mt-10">
-        <div
-          className="relative -mb-px h-px w-full bg-gradient-to-r from-transparent via-green-500 to-transparent"></div>
-        <div
-          className="mx-5 border dark:border-b-green-500 dark:border-t-white/50 border-b-purple-500 sm:border-t-purple-500 shadow-[20px_0_20px_20px] shadow-slate-500/10 dark:shadow-purple-500 rounded-lg border-purple-500 border-l-purple-500 border-r-purple-500 sm:shadow-sm lg:rounded-xl lg:shadow-none">
+        <div className="relative -mb-px h-px w-full bg-gradient-to-r from-transparent via-green-500 to-transparent"></div>
+        <div className="mx-5 border dark:border-b-green-500 dark:border-t-white/50 border-b-purple-500 sm:border-t-purple-500 shadow-[20px_0_20px_20px] shadow-slate-500/10 dark:shadow-purple-500 rounded-lg border-purple-500 border-l-purple-500 border-r-purple-500 sm:shadow-sm lg:rounded-xl lg:shadow-none">
           <div className="flex justify-center items-center flex-col p-6">
             <h3 className="text-xl flex items-center justify-center font-semibold leading-6 tracking-tighter">
               Register
@@ -153,6 +153,6 @@ const RegisterForm = () => {
       </div>
     </div>
   );
-}
+};
 
 export default RegisterForm;
