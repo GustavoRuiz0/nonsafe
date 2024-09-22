@@ -56,7 +56,7 @@ const RegisterForm = () => {
       <div className="bg-black text-white flex min-h-[75vh] flex-col items-center pt-16">
         <h2 className="text-2xl">Registro recebido!</h2>
         <p className="mt-4 text-xl">
-          {{message}}
+          {message}
         </p>
       </div>
     );
