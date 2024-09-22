@@ -11,7 +11,7 @@ const LoginForm = () => {
 
   const sendLogin = async (newJob) => {
     try {
-      const response = await fetch(`/nonsafeapi-production.up.railway.app/auth/login`, {
+      const response = await fetch(`https://nonsafeapi-production.up.railway.app/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
