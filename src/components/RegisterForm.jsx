@@ -10,7 +10,7 @@ const RegisterForm = () => {
   const [message, setMessage] = useState(false);
 
   const sendRegister = async (newUser) => {
-    const res = await fetch(`/nonsafeapi-production.up.railway.app/users`, {
+    const res = await fetch(`https://nonsafeapi-production.up.railway.app/users`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
