@@ -6,8 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://nonsafeapi-production.up.railway.app/',
-        changeOrigin: true,
+        target: 'https://nonsafeapi-production.up.railway.app',
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
