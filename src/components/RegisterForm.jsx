@@ -7,7 +7,7 @@ const RegisterForm = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [note, setNote] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [message, setMessage] = useState(''); // Inicializa com uma string vazia
+  const [message, setMessage] = useState('');
 
   const sendRegister = async (newUser) => {
     const res = await fetch(`https://nonsafeapi-production.up.railway.app/users`, {
