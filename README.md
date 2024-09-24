@@ -1,9 +1,16 @@
-# React + Vite
+# NonsafeSystem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NonsafeSystem is a security flaw reporting system designed to promote transparency and freedom.
 
-Currently, two official plugins are available:
+This project is developed in **React** and consumes a **Ruby on Rails** API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# nonsafe
+## Features
+
+- Libertarian project
+- Reporting security flaws
+
+## Contact
+
+For questions or suggestions, reach out to us at [nonsafesystem@protonmail.com](mailto:nonsafesystem@protonmail.com).
+
+![React](https://img.icons8.com/color/48/000000/react-native.png) ![Ruby](https://img.icons8.com/color/48/000000/ruby-programming-language.png) ![Ruby on Rails](https://img.icons8.com/color/48/000000/ruby-on-rails.png)
