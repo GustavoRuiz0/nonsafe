@@ -1,0 +1,163 @@
+                             AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+   Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+   Everyone is permitted to copy and distribute verbatim copies
+   of this license document, but changing it is not allowed.
+
+                             Preamble
+
+   The GNU Affero General Public License is a free software license,
+   intended to guarantee your freedom to run, study, share and modify
+   the software.  It is a strong copyleft license, which means that
+   derivative work can only be distributed under the same license terms.
+
+   In addition, the Affero General Public License closes the
+   "application service provider" (ASP) loophole.  This loophole
+   allows proprietary software to provide a service over a network
+   without the user ever having access to the source code.  The AGPL
+   ensures that users who interact with the software over a network
+   have the same rights as those who obtain the software in a more
+   traditional way.
+
+   The AGPL is a modified version of the GNU General Public License
+   (GPL), and has been drafted to ensure that users can obtain the
+   source code of any program that uses AGPL-licensed components.
+
+   This license is also intended to be compatible with other
+   licenses, so that software can be combined together in a way that
+   respects all users' rights.
+
+   0. Definitions
+
+   This License refers to version 3 of the GNU Affero General Public
+   License.  "The Program" refers to any copyrightable work licensed
+   under this License.  "You" refers to the licensee of the Program,
+   and "your" has a corresponding meaning.  "Affiliated Party" means
+   an entity that directly or indirectly controls, is controlled by,
+   or is under common control with you.  To "control" means to own,
+   directly or indirectly, more than fifty percent (50%) of the
+   voting power of a corporation or other entity.  "This License"
+   refers to the GNU Affero General Public License, and "the GNU GPL"
+   refers to the GNU General Public License, version 3. 
+
+   "Source Code" means the preferred form of the work for making
+   modifications to it, including all modules it contains, plus any
+   associated interface definition files, and the scripts used to
+   control compilation and installation of the executable.  However,
+   "Source Code" does not include the printed format of the work.
+
+   "Object Code" means any non-source form of the work.
+
+   "Conveying" means any kind of propagation that enables other
+   parties to make, use, modify, or propagate the work. 
+
+   "Corresponding Source" for a work in Object Code form means the
+   Source Code for the work, plus any associated interface definition
+   files, plus the scripts used to control compilation and installation
+   of the executable. 
+
+   1. Source Code
+
+   You may copy and distribute the Program in Source Code form,
+   provided that you retain the copyright notice, this list of
+   conditions and the following disclaimers in the Source Code.
+
+   You may not copy, modify, sublicense, or distribute the Program in
+   Object Code form, except as provided in this License.
+
+   2. Copyleft
+
+   You must cause any modified files to carry prominent notices
+   stating that you changed the files and the date of any change.
+
+   You must cause the whole of the modified Program to be licensed
+   at no charge to all third parties under the terms of this License.
+
+   You must not impose any further restrictions on the exercise of
+   the rights granted or affirmed under this License. 
+
+   3. Conveying
+
+   You may convey the Program in Object Code form under the terms of
+   this License, provided that you also convey the Corresponding
+   Source under the terms of this License, or that you make it
+   available in a manner that is effective for the recipient to
+   obtain it.
+
+   4. Combination with Other Programs
+
+   You may combine the Program with other software, and convey the
+   resulting combination under terms of your choice, provided that
+   you also meet all of the requirements of this License for each
+   separate Program.
+
+   5. Distribution of the Program
+
+   You may not copy, modify, sublicense, or distribute the Program in
+   Object Code form, except as provided in this License.
+
+   6. Access to the Source Code
+
+   You must provide access to the Corresponding Source in the manner
+   specified in this License, including the full machine-readable
+   source code.
+
+   7. Conveying Non-Source Forms
+
+   If you convey the Program in non-source form, you must also convey
+   the Corresponding Source.
+
+   8. Additional Terms
+
+   You may add to this License additional permissions or
+   restrictions that apply to the Program or to specific files.  You
+   may not impose any further restrictions on the exercise of the
+   rights granted or affirmed under this License.
+
+   9. Acceptance
+
+   You may accept this License by continuing to use the Program. 
+
+   10. Termination
+
+   This License automatically terminates if you fail to comply with
+   its terms.  However, if you cure such failure before your rights
+   are terminated, you may continue to use the Program.
+
+   11. Warranty
+
+   The Program is distributed without warranty of any kind.
+
+   12. Limitation of Liability
+
+   In no event shall the authors or copyright holders be liable for
+   any claim, damages, or other liability, whether in an action of
+   contract, tort, or otherwise, arising from, out of, or in
+   connection with the Program or the use or other dealings in the
+   Program.
+
+   13. Interpretation
+
+   If any provision of this License is held to be unenforceable, that
+   will not affect the validity or enforceability of the remaining
+   provisions.
+
+   14. Future Versions
+
+   The Free Software Foundation may publish new versions of the
+   Affero General Public License from time to time. Each version will
+   be given a distinguishing version number. 
+
+   15. Additional Permissions
+
+   If you are a contributor to the Program, you may provide additional
+   permissions to the licensee.  Such additional permissions may not
+   contradict the terms of this License.
+
+   16. Additional Notices
+
+   You must include the following notices in all copies of the Program
+   or substantial portions of the Program:
+
+   "This project is licensed under the GNU Affero General Public License."
