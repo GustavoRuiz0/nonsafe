@@ -39,7 +39,7 @@ const Main = () => {
                  src='https://github.com/GustavoRuiz0/nonsafe_normal_images/blob/main/icons/retro-cassette-pink-purple-icon-5694190.svg?raw=true'/>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">Finance Our Information War and
               Decentralization</h3>
-            <p className="font-light text-gray-500 dark:text-gray-400">Bitcoin Wallet: bc1q8x935002d6zrhhx6nksdh9pvlevdst5nwrnapw</p>
+            <p className="font-light text-gray-500 dark:text-gray-400">Bitcoin Wallet: bc1qttk8cl5qqg7tg7dxr6gjd7q7s8z9jja88nxnu0</p>
           </div>
         </div>
       </div>
