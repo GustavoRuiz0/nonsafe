@@ -1,6 +1,4 @@
-import Footer from "../components/Footer.jsx";
 import {useEffect} from "react";
-
 
 const AddPostPage = () => {
   useEffect(() => {
@@ -9,9 +7,8 @@ const AddPostPage = () => {
 
 
   return (
-    <div className="bg-black min-h-screen flex flex-col">
+    <div className="bg-black flex flex-col">
       {/* <LoginForm/> */}
-      <Footer />
     </div>
   );
 }

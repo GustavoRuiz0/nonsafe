@@ -1,4 +1,3 @@
-import Footer from "../components/Footer.jsx";
 import {useEffect} from "react";
 import RegisterForm from "../components/RegisterForm.jsx";
 
@@ -8,10 +7,9 @@ const RegisterPage = () => {
   }, []);
 
   return (
-    <div className="bg-black min-h-screen flex flex-col">
+    <main className="flex flex-1 flex-col justify-center">
       <RegisterForm/>
-      <Footer />
-    </div>
+    </main>
   );
 }
 

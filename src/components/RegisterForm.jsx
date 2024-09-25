@@ -66,7 +66,7 @@ const RegisterForm = () => {
   }
 
   return (
-    <div id="registration-form" className="bg-black text-white flex min-h-[75vh] flex-col items-center pt-16 sm:justify-center sm:pt-0">
+    <div id="registration-form" className="bg-black text-white flex flex-col items-center sm:justify-center sm:pt-0">
       <span className="title-font font-medium text-white text-5xl mb-2">NonsafeSystem</span>
       <div className="relative mt-12 w-full max-w-lg sm:mt-10">
         <div className="relative -mb-px h-px w-full bg-gradient-to-r from-transparent via-green-500 to-transparent"></div>
@@ -137,7 +137,7 @@ const RegisterForm = () => {
                   value={note}
                   onChange={(e) => setNote(e.target.value)}
                   rows="4"
-                  className="block w-full border-0 bg-transparent p-0 text-sm"
+                  className="block w-full border-0 bg-transparent p-0 text-sm resize-none"
                 />
               </div>
 
