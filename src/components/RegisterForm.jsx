@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const RegisterForm = () => {
   const [username, setUsername] = useState('');
@@ -49,6 +49,8 @@ const RegisterForm = () => {
     } catch (error) {
       setMessage('Ocorreu um erro durante o registro. Tente novamente.');
       setIsSubmitted(true);
+    } finally {
+      alert(message);
     }
   };
 

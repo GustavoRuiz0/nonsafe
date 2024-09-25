@@ -1,8 +1,6 @@
-import Main from "../components/Main.jsx";
 import Footer from "../components/Footer.jsx";
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import RegisterForm from "../components/RegisterForm.jsx";
-
 
 const RegisterPage = () => {
   useEffect(() => {

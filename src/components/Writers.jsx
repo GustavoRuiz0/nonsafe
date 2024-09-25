@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Writers = () => {
   return (
     <>
@@ -47,7 +45,7 @@ const Writers = () => {
                       </h2>
                       <h3 className="text-gray-500 mb-3">Web Developer and SCADA/Sage Engineer</h3>
                       <p className="mb-4">
-                        Master of React and any think with JS/TS
+                        Master of React and any thing with JS/TS
                       </p>
                       <span className="inline-flex"></span>
                     </div>
