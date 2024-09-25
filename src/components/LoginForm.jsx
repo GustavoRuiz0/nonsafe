@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {useNavigate} from "react-router-dom";
-import {useAuth} from "../auth/AuthProvider"; // Importar o useAuth
+import {useAuth} from "../auth/AuthProvider";
 
 const LoginForm = () => {
   const [email, setEmail] = useState('');
