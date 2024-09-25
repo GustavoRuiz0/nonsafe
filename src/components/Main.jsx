@@ -2,7 +2,7 @@ const Main = () => {
   return (
     <>
       <div
-        className="bg-black items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
+        className="bg-black items-center max-w-screen-xl py-8 mx-auto grid xl:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6 px-20 2xl:p-0">
         <div className="col-span-2 mb-8">
           <h2
             className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
