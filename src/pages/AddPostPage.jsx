@@ -1,7 +1,4 @@
-import Main from "../components/Main.jsx";
-import Footer from "../components/Footer.jsx";
-import React, {useEffect} from "react";
-
+import {useEffect} from "react";
 
 const AddPostPage = () => {
   useEffect(() => {
@@ -10,9 +7,8 @@ const AddPostPage = () => {
 
 
   return (
-    <div className="bg-black min-h-screen flex flex-col">
-      <LoginForm/>
-      <Footer />
+    <div className="bg-black flex flex-col">
+      {/* <LoginForm/> */}
     </div>
   );
 }

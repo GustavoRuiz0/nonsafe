@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import {useNavigate} from "react-router-dom";
 import {useAuth} from "../auth/AuthProvider";
 
@@ -50,7 +50,7 @@ const LoginForm = () => {
 
   return (
     <>
-      <div className="bg-black text-white flex min-h-[75vh] flex-col items-center pt-16 sm:justify-center sm:pt-0">
+      <div className="bg-black text-white flex flex-col items-center  sm:justify-center sm:pt-0">
         <span className="title-font font-medium text-white text-5xl mb-2">NonsafeSystem</span>
         <div className="relative mt-12 w-full max-w-lg sm:mt-10">
           <div className="relative -mb-px h-px w-full bg-gradient-to-r from-transparent via-green-500 to-transparent"></div>
@@ -63,8 +63,6 @@ const LoginForm = () => {
             </div>
             <div className="p-6 pt-0">
               <form onSubmit={submitForm}>
-                <div>
-                  <div>
                     <div
                       className="group relative rounded-lg border focus-within:border-sky-200 px-3 pb-1.5 pt-2.5 duration-200 focus-within:ring focus-within:ring-sky-300/30">
                       <input type='text'
@@ -79,8 +77,6 @@ const LoginForm = () => {
                              autoComplete="off"
                              className="block w-full border-0 bg-transparent p-0 text-sm file:my-1 file:rounded-full file:border-0 file:bg-accent file:px-4 file:py-2 file:font-medium placeholder:text-muted-foreground/90 focus:outline-none focus:ring-0 sm:leading-7 text-foreground"/>
                     </div>
-                  </div>
-                </div>
                 <div className="mt-4">
                   <div>
                     <div

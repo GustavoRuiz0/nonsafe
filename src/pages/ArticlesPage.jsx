@@ -1,25 +1,17 @@
-import React, {useEffect} from "react";
-import Footer from "../components/Footer.jsx";
-
+import { useEffect } from "react";
 
 const ArticlesPage = () => {
+	useEffect(() => {
+		document.title = "Articles";
+	}, []);
 
-  useEffect(() => {
-    document.title = 'Articles';
-  }, []);
-
-
-
-  return (
-    <>
-      <div className="bg-black min-h-screen flex flex-col">
-        <div className="bg-black text-white flex min-h-[75vh] flex-col items-center pt-16 sm:justify-center sm:pt-0">
-          <span className="title-font font-medium text-white text-5xl mb-2">We are preparing the Articles.</span>
-        </div>
-        <Footer />
-      </div>
-    </>
-  )
-}
+	return (
+		<main className="text-white items-center sm:justify-center sm:pt-0 bg-black flex flex-1 flex-col">
+			<h1 className="title-font font-medium text-white text-5xl mb-2">
+				We are preparing the Articles.
+			</h1>
+		</main>
+	);
+};
 
 export default ArticlesPage;
